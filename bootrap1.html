@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Homeword: 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+ <script>
+     function edit(){
+         alert('You Clicked On Edit.')
+     }
+     function del(){
+         alert('You Clicked On Delete.')
+     }
+ </script>
+
+<div class="container">
+  <div class="panel panel-primary">
+    <div class="panel-heading"> Codeigniter 3 - Ajax CRUD Example<div class="btn btn-success float-right"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp; Create Item</div></div>
+    <div class="panel-body">
+    <table class="table table-bordered">
+        <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Action</th>
+        </tr>
+        <tr>
+            <td>ItSolutionStuff.com</td>
+            <td>We Provide Tutorial and Exaples of PHP</td>
+            <td><div class="btn btn-primary" onclick="edit()"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</div>&nbsp;<div class="btn btn-danger" onclick="del()"><i class="fa fa-trash-o" aria-hidden="true"></i>&nbsp;Delete</div></td>
+        </tr>
+        <tr>
+            <td>Codeigniter 3</td>
+            <td>We give you post of Codeigniter 3</td>
+            <td><div class="btn btn-primary" onclick="edit()"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</div>&nbsp;<div class="btn btn-danger" onclick="del()"><i class="fa fa-trash-o" aria-hidden="true"></i>&nbsp;Delete</div></td>
+        </tr>
+        <tr>
+            <td>Larvel</td>
+            <td>We have also collection of larvel tutorial</td>
+            <td><div class="btn btn-primary" onclick="edit()"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</div>&nbsp;<div class="btn btn-danger" onclick="del()"><i class="fa fa-trash-o" aria-hidden="true"></i>&nbsp;Delete</div></td>
+        </tr>
+        <tr>
+            <td>Jquery</td>
+            <td>We have several Jquery plugin post.</td>
+            <td><div class="btn btn-primary" onclick="edit()"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</div>&nbsp;<div class="btn btn-danger" onclick="del()"><i class="fa fa-trash-o" aria-hidden="true"></i>&nbsp;Delete</div></td>
+        </tr>
+        <tr>
+            <td>PHP</td>
+            <td>We You can see new exaples of PHP</td>
+            <td><div class="btn btn-primary" onclick="edit()"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</div>&nbsp;<div class="btn btn-danger" onclick="del()"><i class="fa fa-trash-o" aria-hidden="true"></i>&nbsp;Delete</div></td>
+        </tr>
+    </table>    
+    </div>
+  </div>
+</div>
+</body>
+</html>
